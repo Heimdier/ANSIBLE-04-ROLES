@@ -1,0 +1,11 @@
+data_dir = "/var/lib/vector"
+
+# Input data. Change me to a valid input source.
+[sources.in]
+  type = "stdin"
+
+# Output data
+[sinks.out]
+  inputs   = ["in"]
+  type     = "console"
+  encoding = "text"
