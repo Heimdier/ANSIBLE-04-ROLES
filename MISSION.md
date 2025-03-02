@@ -35,9 +35,6 @@ lighthouse_packages:
   - nginx
 lighthouse_nginx_conf: "lighthouse.conf"
 ```
-
-#### 7. Повторите шаги 3-6 для lighthouse. Помните, что одна роль должна настраивать один продукт.  
-
 #### vector-role:  
 
 role: [vector-role/tasks/main.yml](playbook/roles/vector-role/tasks/main.yml)  
