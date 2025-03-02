@@ -7,7 +7,7 @@
     name: clickhouse 
 ```
 
-#### 2. При помощи `ansible-galaxy` скачал себе эту роль.  
+#### 2. При помощи ansible-galaxy скачал себе эту роль.  
 ![image](https://github.com/user-attachments/assets/3e6d06e9-5e42-4f70-bb08-84d10919353e)
 
 #### 3. Создал каталоги для ролей:   
