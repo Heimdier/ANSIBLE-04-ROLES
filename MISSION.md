@@ -18,9 +18,24 @@
 
 
 
-#### 4. На основе tasks из старого playbook заполните новую role. Разнесите переменные между vars и default.  
-#### 5. Перенести нужные шаблоны конфигов в templates. 
-#### 6. Описать в README.md обе роли и их параметры.  
+#### 4. Из старого playbook перенес в созданные роли: tasks, vars, template, handlers. И разнес переменные между vars и default:   
+- в default оставил:
+`vector_version: "0.45.0"`
+`lighthouse_nginx_port: 8888`
+- в vars остальные переменные:
+```
+vector_config_dir: "/etc/vector/"
+vector_config_file: "vector.toml"
+```
+```
+lighthouse_code_src: "https://github.com/VKCOM/lighthouse.git"
+lighthouse_data_dir: "/etc/lighthouse"
+lighthouse_packages:
+  - git
+  - nginx
+lighthouse_nginx_conf: "lighthouse.conf"
+```
+
 #### 7. Повторите шаги 3-6 для lighthouse. Помните, что одна роль должна настраивать один продукт.  
 
 #### vector-role:  
