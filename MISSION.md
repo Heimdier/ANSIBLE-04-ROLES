@@ -7,15 +7,10 @@
     name: clickhouse 
 ```
 
-#### 2. При помощи `ansible-galaxy` скачать себе эту роль.  
+#### 2. При помощи `ansible-galaxy` скачал себе эту роль.  
+![image](https://github.com/user-attachments/assets/3e6d06e9-5e42-4f70-bb08-84d10919353e)
 
-```shell
-vagrant@test-netology:/ansible/08-ansible-04-role/playbook $ ansible-galaxy role install -p roles -r requirements.yml
-Starting galaxy role install process
-- extracting clickhouse to /ansible/08-ansible-04-role/playbook/roles/clickhouse
-- clickhouse (1.11.0) was installed successfully
 
-```
 
 
 
