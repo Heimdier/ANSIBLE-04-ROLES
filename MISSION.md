@@ -10,11 +10,7 @@
 #### 2. При помощи `ansible-galaxy` скачал себе эту роль.  
 ![image](https://github.com/user-attachments/assets/3e6d06e9-5e42-4f70-bb08-84d10919353e)
 
-
-
-
-
-#### 3. Создать новый каталог с ролью при помощи:   
+#### 3. Создал каталоги для ролей:   
 `ansible-galaxy role init vector-role`  
 `ansible-galaxy role init lighthouse-role`  
 
