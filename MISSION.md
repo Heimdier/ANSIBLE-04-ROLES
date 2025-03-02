@@ -13,16 +13,7 @@
 #### 3. Создал каталоги для ролей:   
 `ansible-galaxy role init vector-role`  
 `ansible-galaxy role init lighthouse-role`  
-
-```shell
-vagrant@test-netology:/ansible/08-ansible-04-role/playbook $ cd roles/
-
-vagrant@test-netology:/ansible/08-ansible-04-role/playbook/roles $ ansible-galaxy role init vector-role
-- Role vector-role was created successfully
-
-vagrant@test-netology:/ansible/08-ansible-04-role/playbook/roles $ ansible-galaxy role init lighthouse-role
-- Role lighthouse-role was created successfully
-```
+![image](https://github.com/user-attachments/assets/85463b5d-2495-41a0-8f5d-eb72560cc561)
 
 
 
