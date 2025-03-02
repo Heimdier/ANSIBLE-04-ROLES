@@ -13,6 +13,7 @@
 #### 3. Создал каталоги для ролей:   
 `ansible-galaxy role init vector-role`  
 `ansible-galaxy role init lighthouse-role`  
+
 ![image](https://github.com/user-attachments/assets/85463b5d-2495-41a0-8f5d-eb72560cc561)
 
 
