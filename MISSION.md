@@ -1,6 +1,6 @@
 # 08-ansible-03-yandex
 
-- подготовил три хоста для clickhouse vector и  lighthouse    
+`подготовил три хоста для clickhouse vector и  lighthouse    `
 
 ![image](https://github.com/user-attachments/assets/7e895910-48c6-4549-94df-2c1842f72407)
 
