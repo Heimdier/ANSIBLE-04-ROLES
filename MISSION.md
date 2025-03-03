@@ -38,7 +38,7 @@ lighthouse_nginx_conf: "lighthouse.conf"
 #### 5. сделал install своих ролей из своих репозитариев    
 ![image](https://github.com/user-attachments/assets/4ae469ac-b85a-4396-9776-8533c4354f33)
 
-#### запустил основной плэйбук:
+#### 6. запустил основной плэйбук с применением ролей:
 ```shell
 maha@mahavm:~/ansible-galaxy/ansible-04-roles$ ansible-playbook site.yml -i ./inventory/prod.yml
 
@@ -208,13 +208,11 @@ maha@mahavm:~/ansible-galaxy/ansible-04-roles$
 ```
 #### все завершилось успешно!
 
+#### 7. Ссылки на полученные roles в моем репозитории:  
 
+[vector-role](https://github.com/Heimdier/ANSIBLE-VECTOR-ROLE)    
+[lighthouse-role](https://github.com/Heimdier/ANSIBLE-LIGHTHOUSE-ROLE)      
 
-#### 8. Выложите все roles в репозитории. Проставьте тэги, используя семантическую нумерацию Добавьте roles в requirements.yml в playbook.  
-
-[vector-role, tag: 1.0.0](https://github.com/duxaxa/vector-role/releases/tag/1.0.0)    
-[lighthouse-role, tag: 1.0.0](https://github.com/duxaxa/lighthouse-role/releases/tag/1.0.0)      
-[requirements.yml](playbook/requirements.yml)
 
 
 
