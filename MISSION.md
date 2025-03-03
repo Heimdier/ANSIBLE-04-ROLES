@@ -35,7 +35,20 @@ lighthouse_packages:
   - nginx
 lighthouse_nginx_conf: "lighthouse.conf"
 ```
-#### vector-role:  
+#### 5. сделал install своих ролей из своих репозитариев    
+![image](https://github.com/user-attachments/assets/4ae469ac-b85a-4396-9776-8533c4354f33)
+
+
+
+
+
+
+
+
+
+
+
+
 
 role: [vector-role/tasks/main.yml](playbook/roles/vector-role/tasks/main.yml)  
 handlers: [vector-role/handlers/main.yml](playbook/roles/vector-role/handlers/main.yml)  
